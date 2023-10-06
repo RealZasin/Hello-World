@@ -64,3 +64,19 @@
 02102023	12:30:42	71c0e0b7-a487-44d8-b229-8ce986953d0b	/image/index.jpg	GET
 02102023	12:31:48	a29ad355-b0d2-428b-996d-d0f1f1071fa2	/infinite-money-inlife	GET
 02102023	12:31:48	0d261df5-2ef6-444a-ae9a-74bc32623d92	/css/stylesheet.css	GET
+05102023	08:46:17	bc4862d4-bd07-4067-9a46-cf8884da118e	GET	undefined	/
+05102023	08:48:02	33120380-b3a6-4309-acd9-0af268d3d31e	GET	undefined	/
+05102023	08:58:29	b3007c35-e177-40ff-b914-967db9ed6ecb	GET	undefined	/
+05102023	09:09:33	517e3db7-6c05-410a-b3c6-fcf2d408b62b	GET	undefined	/
+05102023	09:09:44	5a83c24a-aa69-4b71-be6b-99d2f8efc2a7	GET	undefined	/
+05102023	09:09:56	d34f1f84-7c2e-4542-8800-453fa3ba3bd0	GET	undefined	/subdir
+05102023	09:10:18	3c689935-1803-4e08-9e13-0d3af693629d	GET	undefined	/subdir
+05102023	09:12:29	da9e5bff-aca6-4033-861b-10a65d0adc63	GET	undefined	/subdir
+05102023	09:12:37	a513d27e-8a44-4b95-af8a-8dfc0dc7f6f2	GET	undefined	/subdir
+05102023	09:13:51	969700bd-a58b-4986-a6f0-829106b4ca7f	GET	undefined	/subdir
+05102023	09:15:07	b6dc8470-3d1a-4dc4-ab37-d27b0c3555c5	GET	undefined	/subdir
+05102023	09:15:11	7e3c2c98-f7d5-4a85-9dbb-4566ce84b86a	GET	undefined	/subdir
+05102023	09:15:36	289f602e-37a6-43b7-a3c7-5bf1a64f79e8	GET	undefined	/subdir
+05102023	09:16:15	d0ce9ec5-245a-4cdf-8936-6e3b53271fe3	GET	undefined	/subdir
+05102023	09:59:40	05438b17-7727-400f-a50c-d0dba285da3c	GET	undefined	/employees
+05102023	10:03:26	4b327b37-01c0-4dab-85fb-237cd32984e1	GET	undefined	/

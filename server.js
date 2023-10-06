@@ -6,9 +6,10 @@ const app = express();
 const cors = require("cors");
 
 
-
 const {logger} = require("./middleware/logEvents");
 const errorHandler = require("./middleware/errorHandler");
+
+
 
 const whitelist = ["http://localhost:3500", "http://localhost:127.0.0.1:5500"]
 const corsOptions = {
@@ -31,21 +32,16 @@ app.use(cors(corsOptions));
 
 const PORT = process.env.PORT || 3500;
 
+app.use(("/subdir"), require("./routes/subdir"));
+app.use(("/"), require("./routes/root"))
 app.use(express.static(path.join(__dirname, "/public")));
 app.use(express.urlencoded({extended: false}));
 app.use(express.json());
+app.use(("/employees"), require("./routes/api/employees"))
 
 app.use(errorHandler)
 
-app.get("^/$|index(.html)?", (req, res) => 
-{
-  res.sendFile(path.join(__dirname, "view", "index.html"));
-});
 
-app.get("/old-page(.html)?", (req, res) =>
-{
-    res.redirect(301, "/new-page.html");
-});
 
 app.get("*", (req, res) => 
     {
@@ -66,8 +62,6 @@ app.get("*", (req, res) =>
         sendFile(path.join(__dirname, "view", "404.html"))
     })
 
-app.get("/new-page(.html)?", (req, res) => {
-  res.sendFile(path.join(__dirname, "view", "new-page.html"));
-});
+
 
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
